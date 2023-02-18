@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+
+}
+h6{
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 40px;
+margin-top: -100px;
+color: rgb(70, 70, 30);
+letter-spacing: 10px;
+}
+.container{
+    
+font-size: 200px;   
+padding: 200px;
+width: 80%;
+min-height: 100%;
+background-color:rgb(184, 184, 184);
+box-shadow: 0px 2px 19px 0px rgba(0,0,0,0.82);
+position: relative;
+}
+.container .main-form{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    flex: 1 1 0%;
+    margin-right: 20px;
+    min-height: 40px;
+    font-size: medium;
+    font-weight: bolder;
+    border-radius: 15px;
+}.submit{
+    width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-family: 'Staatliches', cursive;
+	letter-spacing: 5px;
+	background: #ffc421;
+	border: 2px solid black;
+	box-shadow: 0px 0px 0px rgba(0,0,0,0.4);
+	transition: 500ms;
+}
